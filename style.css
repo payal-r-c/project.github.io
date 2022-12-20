@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+}
+.icon{
+    height: 50px;
+    width: 60px;
+    margin-left: 50px;
+    margin-top: 15px;
+    float: left;
+}
+.text{
+    margin-left:20px; 
+    margin-top: 20px; 
+    float: left;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.home a{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    
+}
+.home a:hover {
+     background-color: green;
+     
+}
+.home{
+    margin-left: 350px; 
+    margin-top: 28px; 
+    font-size: 19PX; 
+    font-family: sans-serif;
+}
+@media screen and (max-width: 600px) {
+    .home a {
+      float: none;
+      width: 100%;
+    }
+  }
+.hero{
+    height: 500px; 
+    width: 100%;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.text1{
+    position: absolute;
+    top: 108px;
+    left: 66px;
+    font-size: 70px;
+    color: black;
+    font-family: sans-serif;
+}
+.text2{
+    position: absolute;
+    top: 208px;
+    left: 66px;
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+}
+.text3{
+    position: absolute;
+    top: 288px;
+    left: 66px;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+}
+.container2{
+    width: 100%;
+    height: 530px;
+    background-color: white;
+    position: absolute;
+    float: left;
+    display: flex;
+
+}
+.photodog{
+    width: 400px;
+    height: 470px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+}
+.photodog1{
+    width: 400px;
+    height: 470px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.about{
+    width: 870px;
+    height: 470px;
+    background-color: white;
+    float: left;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+.greenline{
+    width: 6px;
+    height: 120px;
+    background-color: green;
+}
+.parts1{
+    width: 870px;
+    height: 235px;
+    background-color: white;
+    display: flex;
+}
+.parts2{
+    width: 830px;
+    height: 235px;
+    background-color: rgb(245, 245, 245);
+}
+.text4{
+    color: green;
+    margin-left: 40px;
+    position: absolute;
+}
+.text5{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 45px;
+    position: absolute;
+}
+.text6{
+    margin-top: 160px;
+    font-size: 25px;
+    position: absolute;
+    color: gray;
+}
+.box1{
+    width: 385px;
+    height: 40px;
+    background-color: rgb(57, 160, 57);
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.box2{
+    width: 385px;
+    height: 40px;
+    background-color: rgb(245, 245, 245);
+    margin-top: 20px;
+}
+.mission{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.vission{
+    color: rgb(57, 160, 57);
+    text-align: center;
+    margin-top: 10px;
+}
+.boxes{
+    display: flex;
+}
+.history{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size:larger;
+}
+.cont3{
+    width: 100%;
+    height: 130px;
+    background-color: aqua;   
+}
+.greenline1{
+    width: 6px;
+    height: 130px;
+    background-color: green;
+    margin-top: 580px;
+    margin-left: 30px;
+    display: flex;
+}
+.cont4{
+    width: 100%;
+    height: 130px;
+    background-color:azure;
+    
+}
